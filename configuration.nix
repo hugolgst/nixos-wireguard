@@ -49,7 +49,7 @@
 
   # Install packages
   environment.systemPackages = with pkgs; [
-    git vim
+    git vim dnsutils
   ];
 
   security.sudo.wheelNeedsPassword = false;
